@@ -50,60 +50,6 @@ navLinks.forEach(navLink =>{
 
 })
 
-// // Add advert =====================================>
-
-// const closeAdvertIconDiv = document.getElementById('closeAdvertIconDiv')
-// const advertPage = document.getElementById('advert')
-
-// function showVistorPage(){
-//   setTimeout(()=> advertPage.style.opacity = 1,2000)
-// }
-// showVistorPage()
-
-// closeAdvertIconDiv.onclick = ()=>{
-// advertPage.style.display = "none"
-// }
-
-// // CountDown timer ==============================================>
-// let launchDate = new Date("June 30, 2022 12:00:00").getTime();
-// let timer = setInterval(tick, 1000)
-
-
-// function tick (){
-// let now = new Date().getTime();
-// let t = launchDate - now;
-
-// if (t > 0){
-
-//   let day = Math.floor(t / (1000 * 60 * 60 * 24));
-//   if (day < 10){
-//       day = "0" + day; 
-//   }
-   
-// // Algorith to calculate hours....
-//     let hrs = Math.floor((t % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
-//     if (hrs < 10){
-//         hrs  = "0" + hrs;
-//     }
-// // Algorith to calculate Minutes ....
-//     let mins = Math.floor((t % (1000 * 60 * 60 )) / (1000 * 60));
-//     if (mins < 10){
-//         mins  = "0" + mins;
-//     }
-
-// // Algorithm to calculate Seconds....
-//    let secs = Math.floor((t % (1000 * 60)) / (1000));
-//    if (secs < 10){
-//     secs  = "0" + secs;
-// }
-
-// let time = `${day}  Days  ${hrs}  Hrs  |   ${mins} Mins  |  ${secs}  Sec`;
-
-//     document.querySelector('.countdown').innerHTML = time;
-// }
-// }
-
-// Record Function ==========================================>
 
 
 // Comments Swiper ==================================================>
